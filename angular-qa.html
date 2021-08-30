@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Anglar 10 Interview Q&A</h1>
+    <h2>Intermediate Level Questions</h2>
+    <ol>
+      <li><strong>Q:What is Angular?</strong><br />
+          <strong>A:</strong>
+          -It's an open source, JavaScript framework<br />
+            -It is completly written in TypeScript<br />
+            -Primary aimed to develop Single Page Applications<br />
+            -It uses HTML syntax to express your applicatio's components clearly<br />
+            -Maintained by Google<br />
+            -It's designed for web, desktop, and mobile platforms
+      </li>
+      <br />
+      <li><strong>Q:What is TypeScript?</strong><br />
+            <strong>A:</strong>
+            -It's a superset of JavaScript and offers excellent consistancy<br />
+            -TypeScript is installed as an npm package, and thus can be installed with the
+            following command: npm install -g typescript
+      </li>
+      <br />
+      <li><strong>Q:-What is Data Binding?<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Which type of Data Binding Does Angular Deploy?</strong><br />
+            <strong>A:</strong>
+            -Data Binding is a process that allows an Internet user to manipulate
+            Web page elements using a Web browser<br />
+            -It is used in a Web page that contain intractive components such as forms, calculators
+             tutorials, and games
+            -Any changes in the UI element is reflected in the corresponding model state and vice versa
+      </li>
+      <br />
+      <li><strong>Q:-What are Single Page Aplications?</strong><br />
+            <strong>A:</strong>
+            -Single page Applications load once and new features are just mere additions to the user interface<br />
+            -New HTML pages are not loaded to diplay the new page's content, instead generated dynamicallly<br />
+            -A SPA approach is fater, thus providing a seamless user experience
+      </li>
+      <br />
+      <li><strong>Q:-Differentiate Between AngularJS and Angular</strong><br />
+            <strong>A:</strong><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<img alt="Angular Types" src="assets/imgs/AngularTypes.png" >
+      </li>
+      <br />
+      <li><strong>Q:-What are Decorators in Agular?</strong><br />
+            <strong>A:</strong>
+            -Decorators are functions that allows a service, directive or filter to be modified prior its usage<br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp; -Angular supports four types of decorators:
+            <ul>
+              <li>Class Decorators</li>
+              <li>Property Decorators</li>
+              <li>Method Decorators</li>
+              <li>Parameter Decortors</li>
+            </ul>
+      </li>
+      <br />
+      <li><strong>Q:-Mention some advantages if Angular</strong><br />
+            <strong>A:</strong>
+            -Costum Components
+            -Data Binding
+            -Dependency Injection
+            -Testing
+            -Comprehensive
+            -Browser compatibility
+      </li>
+      <br />
+      <li><strong>Q:-What is new in Angular 10</strong><br />
+            <strong>A:</strong>
+            -Older version of TypeScript not supported<br />
+             3.6, 3.7 & 3.8, Angular 10 bumpped to TypScript 3.9<br />
+            - Warnings about CommonJS imports<br />
+            -Optional strict settings<br />
+            -NGCC Features<br />
+            -Compiler update<br />
+            -URL routing updation<br />
+            -Deprecated API's<br />
+            -Bug fixes<br />
+            -New default browser configuration<br />
+            -Core<br />
+            -Converting pre Ivy code<br />
+            -Service Workers
+      </li>
+      <br />
+      <li><strong>Q:-What are Teplates in Angular?</strong><br />
+            <strong>A:</strong>
+            -Angular Templates are written with HTML that contains Angular-specific elements and atributes
+            -In combination with the model and controller's information, these templates are further rendered
+             to provide a dynamic view to the user
+            -Templates are very predominant features in Angular that describe how the information can be diplay
+              in the view
+      </li>
+      <br />
+      <li><strong>Q:-What are Annotations in Angular?</strong><br />
+            <strong>A:</strong>
+            -Annotation in Angular are used to creating an annotation array. They are metadata set on the class
+             that is used to reflect the Metadata library
+      </li>
+      <br />
+      <li><strong>Q:-What are Directives in Angular?</strong><br />
+            <strong>A:</strong>
+            -Directives are attributes that allow the user to write new HTML syntax specific to their application.
+             They are executed whenever the Angular compiler finds them in the DOM.<br />
+
+             &nbsp;&nbsp;&nbsp;&nbsp; -Angular supports three types of directives:
+             <ul>
+               <li>Component Directives</li>
+               <li>Structural Directives</li>
+               <li>Attribute Directives</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What is AOT Compilation?</strong><br />
+             &nbsp;&nbsp;&nbsp;&nbsp; -What are it's Advantages?<br />
+            <strong>A:</strong>
+            -The Ahead-of-ttime (AOT) compiler converts the Angular html
+             and TypeScript code into JavaScript code during the build phase, i.e.,
+             before the browser downloads and runs the code<br />
+
+             &nbsp;&nbsp;&nbsp;&nbsp; -Some advantages are:
+             <ul>
+               <li>Faster Rendering</li>
+               <li>Fewer asynchronous request</li>
+               <li>Smaller Angular framework downloads size</li>
+               <li>Quick detection of template errors</li>
+               <li>Better security</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are Components?</strong><br />
+            <strong>A:</strong>
+            -Components are the most basic building blocks in the UI of an application<br />
+            -Every component is associated with a template, and they are a subset of directives<br />
+            -Only one component can be instantiated per element in a template<br />
+            -In an Angular application typically consist of the root component which is basically the @Component
+              and branch out to other copmponents that creates the hierarchy.
+              This @Component decorator provides additional metadata<br />
+            -Component must belong to the Ng module<br />
+            -Components implement Life-Cycle hooks
+      </li>
+      <br />
+      <li><strong>Q:-What are Pipes in Angular?</strong><br />
+            <strong>A:</strong>
+            -Pipes are simple functions designated to accept an input value, process, and return as an output,
+             a transformed value in a more technical understanding<br />
+             <img src="assets/imgs/pipes-Angular.png" alt="Angular Pipes" width="600px"><br />
+
+             &nbsp;&nbsp;&nbsp;&nbsp; -Some key features include:
+             <ul>
+               <li>Pipes are defined using the pipe "|" symbol</li>
+               <li>Pipes can be chained with other pipes</li>
+               <li>Pipes can be provided with arguments by using the colon ( : ) sign</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are pure Pipes?</strong><br />
+            <strong>A:</strong>
+            -It does not use internal state<br />
+            <img src="assets/imgs/purePipes-Angular.png" alt="Angular Pure Pipes" width="600px"><br />
+            &nbsp;&nbsp;&nbsp;&nbsp; -Some key features include:
+            <ul>
+              <li>Pure Pipes use pure functions</li>
+              <li>The Pipes does not use any internal state, and the output remains the same as long
+                  as the parameters passed stay the same</li>
+              <li>Angular calls the Pipes only when it detects a change in the parameters being passed</li>
+              <li>A single instance of the pure pipe is used throughout all components</li>
+            </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are Impure Pipes?</strong><br />
+            <strong>A:</strong>
+            -For every change detection cycle in Angular, an impure pipe is called regardless of the change
+             of the imput fields. Multiple pipe instances are created for these pipes. Inputs passed to
+             these pipes can be mutable<br />
+            -By default, all pipes are pure. However, you can specify impure pipes using the pure property<br />
+            <img src="assets/imgs/demoPipe.png" alt="Demo pipe code" width="600px">
+      </li>
+      <br />
+      <li><strong>Q:-What is PipeTransform Interface?</strong><br />
+            <strong>A:</strong>
+            -The pipe transform interface receives an input value and transforms it into the desired format with a
+             transform() method. It is typically used to implemnt custom pipes<br />
+             <img src="assets/imgs/pipeTransformMethod.png" alt="Pipe Transfor Method" width="600px">
+      </li>
+      <br />
+      <li><strong>Q:-What is NgModule?</strong><br />
+            <strong>A:</strong>
+            -NgModules are containers that reserve a block of code to an application domain or a workflow<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;-@NgModule takes a metadata object that describes how to compile a componet's
+              template and how to create an injector at runtime<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;-NgModules identifies the modules' components, directives, services, pipes, and ensure that is
+             mix in public that external componets can use them
+      </li>
+      <br />
+      <li><strong>Q:-What are filters in Angular?</strong><br />
+            <strong>A:</strong>
+            -Filters are used to format an expression and present it to the user. They can be used in the view templates,
+             controlers or services.<br />
+             &nbsp;&nbsp;&nbsp;&nbsp; -Some inbuild filters are:
+             <ul>
+               <li><strong>date:</strong> -Formats a date to a specified format</li>
+               <li><strong>filter:</strong> -Slects a set of items from an array</li>
+               <li><strong>Json:</strong> -Formats an object to a JSON string</li>
+               <li><strong>limitTo:</strong> -Limits an array/string, into a specific number of elements/haracters</li>
+               <li><strong>lowercase:</strong> -Format a string to lower case</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What is View Encapsulation in Angular?</strong><br />
+            <strong>A:</strong>
+            -View encapdulation defines wheather the template and styles defined within the component can affecr
+             the whole application or viceversa. <br />
+             &nbsp;&nbsp;&nbsp;&nbsp; -Angular provides three encapsulation strategies:
+             <ul>
+               <li><strong>Emulated:</strong> -styles from amin HTML propagate to the component</li>
+               <li><strong>Native:</strong> -styles from main HTML do not propagate to the component</li>
+               <li><strong>None:</strong> -styles form the component propagate back to the main HTML and
+                                          therfore are visible to all components on the package</li>
+               <li><strong>limitTo:</strong> -</li>
+               <li><strong>lowercase:</strong> -</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are Controllers?</strong><br />
+            <strong>A:</strong>
+            -Angular contollers control the data of Angular applications. They are regular JavaScripts Objects.
+             The ng-controller directive defines the application controller<br />
+             &nbsp;&nbsp;&nbsp;&nbsp; -Angular provides three encapsulation strategies:
+             <ul>
+               <li><strong>Emulated:</strong> -styles from amin HTML propagate to the component</li>
+               <li><strong>Native:</strong> -styles from main HTML do not propagate to the component</li>
+               <li><strong>None:</strong> -styles form the component propagate back to the main HTML and
+                                          therfore are visible to all components on the package</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What do you understand by Scope in Angular?</strong><br />
+            <strong>A:</strong>
+            <ul>
+              <li>-The scope in Angular binds the HTML, i.e., the view, and the JavaScript, i.e., the controller</li>
+               <li>-It is an object with the available properties and methods</li>
+               <li>-When you make a controller in Angular, you pass the $scope object as an argument</li>
+               <li><strong>limitTo:</strong> -</li>
+               <li><strong>lowercase:</strong> -</li>
+              <li><strong>limitTo:</strong> -</li>
+              <li><strong>lowercase:</strong> -</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are the Lifecycle Hooks in Angular?</strong><br />
+            <strong>A:</strong>
+            -In Angular, every component has a lifecycle. Angular creats and renders these components and also destroys
+              them before removing them from the DOM. This is achives with the help of lifecycle hooks.<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/imgs/lifeCycleHooks.png" alt="Life Cycle Hooks" width="500px">
+              <br />
+            <ul>
+              <li><strong>-ngOnChanges():</strong> -A callback method that is invoked immediately after the default change detector has checked
+                data-bound properties if at least one has changed, and before the view and content children are checked.
+                ngOnChanges(changes: SimpleChanges): void</li>
+               <li><strong>ngOnInit():</strong> -life cycle hook called by Angular to indicate that the Angular is done creating the component</li>
+               <li>-When you make a controller in Angular, you pass the $scope object as an argument</li>
+               <li><strong>ngDoCheck():</strong> - is the method of DoCheck interface. The DoCheck is a lifecycle hook that invokes a custom
+                 change-detection function for a directive. </li>
+               <li><strong>ngAfterContentInit():</strong> -A callback method that is invoked immediately after Angular has completed initialization of all of the directive's content.
+                 It is invoked only once when the directive is instantiated</li>
+               <li><strong>ngAfterContentChecked()</strong> -is a callback method which will get called by Angular immediately after the default change detector completes
+                 checking all of the directive's content.</li>
+               <li ><strong>ngAfterViewInit():</strong> -is called after Angular has fully initialized a component's views.  is used to handle any additional initialization tasks</li>
+               <li><strong>ngAfterViewChecked():</strong> -A callback method that is invoked immediately after the default change detector has completed one change-check cycle for a component's view.</li>
+               <li><strong>ngOnDestroy():</strong> -A callback method that performs custom clean-up, invoked immediately before a directive, pipe, or service instance is destroyed. </li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What is String Interpolation in Angular?</strong><br />
+            <strong>A:</strong>
+
+            <ul>
+              <li>String Interpolation is a one-way data-binding technique that outputs the data from TypeScript code to HTML view</li>
+               <li>It is denoted using double curly braces</li>
+               <li>It helps display the data from the component to the view</li>
+             </ul>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ data }}
+      </li>
+      <br />
+      <li><strong>Q:-What are Template Statements?<br />
+            <strong>A:</strong> They are methods or propeties that is used in HTML to repond to user events.<br />
+            With templates statements the application can engage users through actions such as displaying dynamic content or submiting forms.<br /><br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60;buton (click)="deleteHero()" &#62; Delete Hero &#60;/button&#62;<br /><br />
+
+            The tempalte here is deletHero. The method is called when the user clicks on the button.<br />
+      </li>
+      <br />
+
+      <h2>----- Advanced Level Questions -----</h2>
+
+      <li><strong>Q:-What is the Difference between AOT and JIT?</strong><br />
+            <strong>A:</strong>
+             <ul>
+               <li>Ahead of Time Compilation (AOT) converts your code during the build time before the browser downloads and runs that code<br />
+                  -This ensure faster rendering to the browser<br />
+                  -The user should include the --aot option with the ng build or ng serve command
+               </li><br />
+               <li>Just-in-Time (JIT) compilation process is a way of compiling computer code to machine code durig execution or run time<br />
+                 -It is also known as dynamic compilation <br />
+                 -JIT compilation is the default when you run the ng build or ng serve CLI commands
+               </li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What is the @Component Decorator?</strong><br />
+            <strong>A:</strong>
+             <ul>
+               <img src="assets/imgs/ComponentDecorator.png" alt="Component Decorator sample">
+               <li>A typeScript class is used to create a component which is decorated with the <i>"@Component"</i> decorator</li>
+               <li>The metadata object provides properties like <strong>selector, templateURL,</strong> and so on-The teplate URL points
+                   to an HTML file that defines what you see on your application
+               </li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are Services in Angular?</strong><br />
+            <strong>A:</strong>
+             <ul>
+               <img src="assets/imgs/services.png" alt="Services in Angular" width="410px">
+               <li>Angular Services perform task that are used by multiple components<i>"@Component"</i> decorator</li>
+               <li>A component can delegate task like fetching data from the server, validating user input, or loggin directly to the console to the Services</li>
+               <li>A service can be gritten once and injected into all the components that uses that service thus avoiding redundant code</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are Promises and Observables?</strong><br />
+            <strong>A:</strong>
+            <table cellspacing="20">
+              <tr>
+                <td style="text-align: center">
+                  Promises
+                </td>
+                <td style="text-align: center">
+                  Observables
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  -Promises emit a single value at a time<br />
+                  -They execute immediately after creation and are not cancelable<br />
+                  -They are Push errors to the child promises
+                </td>
+                <td>
+                  -Observables are only executed when suscribed to them using the subscribe() method<br />
+                  -They help perform operations like forEach, filter, and retry, among others<br />
+                  -When the unsuscribe() method is called, the listener stops receiving further value
+                </td>
+              </tr>
+            </table>
+      </li>
+      <br />
+      <li><strong>Q:-What is ngOnInit? How is it defined?</strong><br />
+            <strong>A:</strong>
+             <ul>
+               <li>ngOnInit is a lifecycle hook and callback method that is run by Angular to indicate that a component has been created</li>
+               <li>It takes no parameters and returns a void type</li>
+               <img src="assets/imgs/ngOnInit.png" alt="ngOnInit code sample" width="350px">
+             </ul>
+
+      </li>
+      <br />
+      <li><strong>Q:-Explain the ngFor Directive</strong><br />
+            <strong>A:</strong>
+            ngFor directive is used to iterate over an array or an object and creates a template for each element
+             <ul>
+               <li>"Let item" creates a local variable that will be available inside the template</li>
+               <li>"Of items" indicates thta we are iterating over the items iterable</li>
+               <li>The "*" before ngFor creates a parent template</li>
+               <img src="assets/imgs/ngFor.png" alt="ngFor code sample" width="350px">
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are Tempalte and Reactive Forms?</strong><br />
+            <strong>A:</strong>
+            <table cellspacing="15">
+              <tr>
+                <td style="text-align: center">
+                  Template-Driven
+                </td>
+                <td style="text-align: center">
+                  Reactive-Forms
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  -The conventional form tag is used to create forms. Angular automatic interpretes and creates a form object representation for this tag<br />
+                  -Controls can be added using the ngModule tag. Multiple controls can be grouped using the ngControl group module<br />
+                  -A form value can be generated using the form.value object and formData exported as JSON values<br />
+                  -Basic HTML validation can be use to validate the form fields. In the case of costum validation directives can be used
+                </td>
+                <td>
+                  -This aproch basically revolves around data flows and propagation of change. The component directly mange the data flow between the form controls and the data modules<br />
+                  -Reactive forms are Code Driven unlike a template diven approach<br />
+                  -Reactive forms breake the traditional declarative appoach, and eleminate the antipatern of getting data where the two-way data binding method<br />
+                  -Tipically Reactive forms control creation is Synchronous and can be Unit testing with syncronous programing techniques
+                </td>
+              </tr>
+              <tr>
+                <tr>
+                  <td colspan="2" align=center><img src="assets/imgs/Template-n-ReactiveForms.png" alt="ngOnInit code sample" width="800px"></td>
+                </tr>
+            </table>
+      </li>
+      <br />
+      <li><strong>Q:-What is Bootstrap? and How it is added to Angular?</strong><br />
+            <strong>A:</strong>
+            Bootstrap is a powerful toolkit -a collection of HTML, CSS, and JavaScript tools for creating a building responsive web pages and web applications
+             <ul>
+               <li>Bootstrap CDN</li>
+               <li>Bootstrap npm</li>
+               <img src="assets/imgs/bootstrap.png" alt="Bootstrap" width="550px">
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What is Eager and Lazy Loading?</strong><br />
+            <strong>A:</strong>
+
+             <ul>
+               <li>-Eager loading is the default module-loading strategy. <br />
+                   Feature modules under Eager loading are loaded before the application starts.<br />
+                   -This is typically used for small size applications
+                 </li>
+               <li>-Lazy loading dynamically loads the feature modules when there is a demand. This makes the application faster.<br />
+                   -It is used for bigger applications where all the modules are not required at the start of the application
+                 </li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What type of DOM does Angular Use?<br />
+            <strong>A:</strong>
+            The Document Object Model trees in XML or HTML document at tree structure in which each node represents a part of the document.
+             <ul>
+               <img src="assets/imgs/DOM_type.png" alt="Angular DOM type" width="540px">
+               <li>Angular uses the regular DOM which updates the entire tree structure of HTML tags until it reaches the data to be updated</li>
+               <li>However, to ensure that the speed and performance are not affected, Angualr implements Change Detection</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-How is Dependency Injection achived in Angular?<br />
+            <strong>A:</strong>
+            Dependencies are objects or services tht a component needs to perform functions.<br />
+            Using Dependency Injection, classes can request dependencies from external souces rather than creating them.<br />
+            For a demo we use:
+             <ul>
+               <li>ng g service demoservice</li><br />
+               <img src="assets/imgs/dependencyInjection.png" alt="Dependency Injection" width="500px">
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-How does Angular Routing work?<br />
+            <strong>A:</strong>
+             <ul>
+               <li>Routing helps navigate through a web application, especially in a Sinngle page Application where new content is loaded dynamically (only once)</li>
+               <li>It generally specifies navigation with a forward slash followed by the path defining the new content</li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-What are Form Control and Form Groups?<br />
+            <strong>A:</strong>
+             <ul>
+               <li>Form Control:<br />
+                    <img src="assets/imgs/FormControls.png" alt="Form Controls" width="450px">
+
+               </li>
+               <li>Form Groups:<br />
+                    <img src="assets/imgs/FormGroups.png" alt="Form Groupss" width="450px">
+               </li>
+             </ul>
+      </li>
+      <br />
+      <li><strong>Q:-How is Testing Achived in Angular?<br />
+            <strong>A:</strong>
+            Angular uses <strong>Jasmine</strong> to run various test
+            <table cellspacing="20">
+                <td>
+                  <img src="assets/imgs/Jasmin.png" alt="Jasmin logo" width="100px">
+                </td>
+                <td>
+                  -The <strong>Jasmine Framework</strong> allows various fuctionalities to write different kinds of test cases<br />
+                  -<strong>Karma</strong> is the task-runner for the tests<br />
+                  -Karma uses a <strong>configuration file</strong> to set the start-up, reporters, and testing framework
+                </td>
+              </tr>
+            </table>
+      </li>
+      <br />
+      <li><strong>Q:-What is package.json?<br />
+            <strong>A:</strong>
+            npm instals the package.json file when a new workspace is created<br /><br />
+
+            The package.json file includes a starter set of packages some of which are required by Angular<br /><br />
+
+            package.json is orgaized in two groups of packages:
+
+             <ul>
+               <li>Dependencies - These are essential to run the applications<br />
+               </li>
+               <li>DevDependencies - Necesary to develop applications</li>
+             </ul>
+      </li>
+    </ol>
+    <br /> <br />
+
+    <hr>
+    <a href="index.html">home</a>
+    <a href="hobbies.html">my hobbies</a>
+    <a href="contact.html">contact me</a>
+    <a href="inputs.html">inputs</a>
+  </body>
+</html>
