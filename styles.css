@@ -1,0 +1,27 @@
+/************ TAG SELECTORS **********/
+body {
+  background-color: #DAF1F9;
+  font-family: sans-serif;
+}
+
+
+h1, h2, h3 {
+  color: #66BFBF;
+}
+
+hr {
+  border-color: #A4D7E1;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 10%;
+}
+
+
+/************ ClASS SELECTORS **********/
+
+
+
+
+
+/************ ID SELECTORS **********/
